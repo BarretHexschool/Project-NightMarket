@@ -1,0 +1,11 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "bootstrap/scss/functions";
+
+@import "./variables";
+
+@import "./font";
+
+@import "bootstrap/scss/bootstrap.scss";
